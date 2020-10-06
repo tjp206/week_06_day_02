@@ -29,7 +29,11 @@ Decorator.prototype.paintRoom = function (room) {
 }
 
 Decorator.prototype.decreasePaintStock = function () {
-    
+    let areaToBePainted = areaInSquareMeters;
+
+    for (const paintCan of this.paintStock) {
+        if(paintCan.)
+    }
 }
 
 
