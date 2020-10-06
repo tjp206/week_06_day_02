@@ -14,8 +14,8 @@ Taxi.prototype.addPassenger = function (passenger) {
 };
   
 Taxi.prototype.removePassengerByName = function (passenger) {
-    const indexOfPassenger = this.passengers.indexOf(passenger);
-    this.passengers.splice(indexOfPassenger, 1);
+    const index = this.passengers.indexOf(passenger);
+    this.passengers.splice(index, 1);
 };
   
 Taxi.prototype.removeAllPassengers = function () {
@@ -23,4 +23,5 @@ Taxi.prototype.removeAllPassengers = function () {
 };
 
 module.exports = Taxi;
+
 
